@@ -1,4 +1,4 @@
-# EPubSub Monorepo
+# EPubSub
 
 ## Problem
 
