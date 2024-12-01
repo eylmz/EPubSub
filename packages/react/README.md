@@ -13,11 +13,11 @@ React hooks for EPubSub - a lightweight publish-subscribe library for React appl
 ## Installation
 
 ```bash
-npm install epubsub epubsub-react
+npm install epubsub-react
 # or
-yarn add epubsub epubsub-react
+yarn add epubsub-react
 # or
-pnpm add epubsub epubsub-react
+pnpm add epubsub-react
 ```
 
 ## Usage

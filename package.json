@@ -2,7 +2,8 @@
   "name": "epubsub",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "example"
   ],
   "scripts": {
     "dev": "lerna run dev",

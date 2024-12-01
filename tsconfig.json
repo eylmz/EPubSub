@@ -4,8 +4,8 @@
     "baseUrl": ".",
     "jsx": "react",
     "paths": {
+      "epubsub-react": ["./packages/react/src"],
       "epubsub": ["./packages/core/src"],
-      "react-epubsub": ["./packages/react/src"]
     }
   }
 }

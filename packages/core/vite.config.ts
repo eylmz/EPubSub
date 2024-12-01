@@ -9,16 +9,7 @@ export default defineConfig({
       name: 'EPubSub',
       fileName: (format) => `epubsub.${format}.js`,
       formats: ['es', 'cjs', 'umd'],
-    },
-    rollupOptions: {
-      external: ['react', 'react-dom'],
-      output: {
-        globals: {
-          react: 'React',
-          'react-dom': 'ReactDOM',
-        },
-      },
-    },
+    }
   },
   plugins: [dts()],
 });
