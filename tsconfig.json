@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "epubsub": ["./packages/core/src"],
+      "react-epubsub": ["./packages/react/src"]
+    }
+  }
+}

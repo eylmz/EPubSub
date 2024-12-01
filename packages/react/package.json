@@ -1,0 +1,56 @@
+{
+  "name": "react-epubsub",
+  "private": false,
+  "version": "1.0.0",
+  "description": "React hooks for EPubSub - a lightweight publish-subscribe library for React applications",
+  "author": "Emre YILMAZ",
+  "license": "Apache-2.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/epubsub.cjs.js",
+  "module": "./dist/epubsub.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/epubsub.es.js",
+      "require": "./dist/epubsub.cjs.js"
+    }
+  },
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest run --coverage"
+  },
+  "dependencies": {
+    "epubsub": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^16.0.1",
+    "@types/react": "^18.3.12"
+  },
+  "keywords": [
+    "events",
+    "eventemitter",
+    "emitter",
+    "pubsub",
+    "publish-subscribe",
+    "react-hooks",
+    "react",
+    "typescript",
+    "event-driven",
+    "state-management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eylmz/epubsub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eylmz/epubsub/issues"
+  },
+  "homepage": "https://github.com/eylmz/epubsub"
+}

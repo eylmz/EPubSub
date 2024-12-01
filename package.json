@@ -1,0 +1,30 @@
+{
+  "name": "epubsub",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "lerna run dev",
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/node": "^22.10.1",
+    "@typescript-eslint/eslint-plugin": "^8.16.0",
+    "@vitest/coverage-istanbul": "^2.1.6",
+    "eslint": "^8.57.1",
+    "globals": "^15.12.0",
+    "install": "0.13.0",
+    "jsdom": "^25.0.1",
+    "lerna": "^8.1.9",
+    "npm": "10.9.1",
+    "prettier": "3.4.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vite-plugin-dts": "^4.3.0",
+    "vitest": "^2.1.6"
+  }
+}

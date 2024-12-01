@@ -1,0 +1,47 @@
+{
+  "name": "epubsub",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A lightweight, framework-agnostic JavaScript/TypeScript publish-subscribe library that enables efficient event-driven communication between different parts of your application.",
+  "author": "Emre YILMAZ",
+  "license": "Apache-2.0",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/epubsub.cjs.js",
+  "module": "./dist/epubsub.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/epubsub.es.js",
+      "require": "./dist/epubsub.cjs.js",
+      "types": "./dist/main.d.ts"
+    }
+  },
+  "types": "./dist/main.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest run --coverage"
+  },
+  "keywords": [
+    "events",
+    "eventemitter",
+    "emitter",
+    "pubsub",
+    "publish-subscribe",
+    "react-hooks",
+    "react",
+    "typescript",
+    "event-driven",
+    "state-management"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eylmz/epubsub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eylmz/epubsub/issues"
+  },
+  "homepage": "https://github.com/eylmz/epubsub"
+}
